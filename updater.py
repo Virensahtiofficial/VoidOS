@@ -5,7 +5,7 @@ import os
 url = "https://raw.githubusercontent.com/Virensahtiofficial/VoidOS/918f4e17183e1bcfae375cecb7fe7f95fcf8d849/os.py"  # Vervang dit met jouw URL
 
 # Specifieke map instellen
-doelmap = "downloads"  # Verander dit naar jouw gewenste map
+doelmap = "voidos"  # Verander dit naar jouw gewenste map
 bestand_naam = "os.py"  # Naam van het opgeslagen bestand
 
 # Controleer of de map bestaat, anders maak hem aan
@@ -26,6 +26,6 @@ try:
                 bestand.write(chunk)
 
     print("Updated successfully!")
-
+    os.system("python voidos/os.py")
 except requests.RequestException as e:
     print(f"{e}")
