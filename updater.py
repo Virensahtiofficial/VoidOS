@@ -2,7 +2,7 @@ import requests
 import os
 
 # URL van het bestand
-url = "https://raw.githubusercontent.com/Virensahtiofficial/VoidOS/918f4e17183e1bcfae375cecb7fe7f95fcf8d849/os.py"  # Vervang dit met jouw URL
+url = "https://raw.githubusercontent.com/Virensahtiofficial/VoidOS/016efe974b7e718af9a274b140a5e0e002cddd56/os.py"  # Vervang dit met jouw URL
 
 # Specifieke map instellen
 doelmap = "voidos"  # Verander dit naar jouw gewenste map
