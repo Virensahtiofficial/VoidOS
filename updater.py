@@ -17,6 +17,7 @@ bestand_pad = os.path.join(doelmap, bestand_naam)
 
 try:
     print("Updating system...")
+    os.system("pip install requests bs4 -q")
     response = requests.get(url, stream=True)
     response.raise_for_status()
 
