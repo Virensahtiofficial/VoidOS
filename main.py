@@ -66,6 +66,7 @@ def boot():
         os.makedirs("voidos", exist_ok=True)  # Maak de map aan als die nog niet bestaat
         try:
             os.rename("voidos/VoidOS-main/os.py", "voidos/os.py")
+            os.rename("voidos/VoidOS-main/updater.py", "voidos/updater.py")
         except FileNotFoundError as e:
             print(f"{e}")
         
